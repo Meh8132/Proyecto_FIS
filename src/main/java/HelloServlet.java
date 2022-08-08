@@ -1,5 +1,3 @@
-package com.example.proyecto_fis;
-
 import java.io.*;
 
 import jakarta.servlet.http.*;

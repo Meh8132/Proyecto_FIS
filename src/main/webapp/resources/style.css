@@ -10,3 +10,10 @@
     margin-bottom: 10vh;
     font-family: 'Titan One', cursive;
 }
+.listaPlayers {
+    text-align: center;
+}
+
+.jugadorEnlistado {
+    font-size: 2em;
+}

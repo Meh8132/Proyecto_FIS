@@ -9,6 +9,7 @@
     </properties>
     <root id="archive" name="Proyecto_FIS-1.0-SNAPSHOT.war">
       <element id="artifact" artifact-name="Proyecto_FIS:war exploded" />
+      <element id="dir-copy" path="$PROJECT_DIR$/src/main/webapp/resources" />
     </root>
   </artifact>
 </component>
