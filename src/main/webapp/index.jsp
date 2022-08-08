@@ -1,3 +1,24 @@
+<%!
+    private void jugadorAgregar(String jugador) {
+        String tarjetaJugador = "" +
+                "<div class=\"card but_index mx-auto shadow animate__animated animate__fadeInLeft\">\n" +
+                "   <div class=\"card-body text-center\"><h2 class=\"fw-semibold\">"+jugador+"</h2></div>\n" +
+                "</div>";
+    }
+    private void imprimirJugador(String jugador){
+        String gridJugador="" +
+                "<div class=\"row justify-content-center d-flex\">\n" +
+                "    <div class=\"col-sm-3 mx-auto gy-3\">\n" +
+                "        <div class=\"jugador-circle shadow position-relative mx-auto my-2\">\n" +
+                "            <h2 class=\"fw-semibold position-absolute top-50 start-50 translate-middle\">Puntos</h2>\n" +
+                "        </div>\n" +
+                "        <div class=\"card but-index mx-auto shadow\" style=\"max-width: 200px;\">\n" +
+                "            <div class=\"card-body text-center\"><h5 class=\"fw-semibold\">Nombre jugador</h5></div>\n" +
+                "        </div>\n" +
+                "   </div>\n" +
+                "</div>";
+    }
+%>
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
 <html lang="es">
@@ -25,6 +46,7 @@
 <!-- Cuerpo -->
 
 <body class="d-flex flex-column" style="min-height: 100vh !important;">
+
 <div class="container mt-5 position-relative">
     <div class="card shadow animate__animated animate__fadeInDownBig" id="title">
         <div class="card-body text-center"><h1>Juego para beber o algo asi 🍻</h1></div>
@@ -36,12 +58,15 @@
         <div class="card-body text-center"><h2 class="fw-semibold">Iniciar</h2></div>
     </button>
 </div>
+
 <form class="card but_index shadow animate__animated popup mx-auto" id="pop-agregar">
     <div class="card-body">
-        <div class="card-title"><h2 class="fw-semibold">Ingrese el nombre del jugador</h2></div><br>
+        <div class="card-title d-flex justify-content-between">
+            <h2 class="fw-semibold" style="display: inline-block">Ingrese el nombre del jugador</h2>
+            <button type="button" class="btn btn-close fw-semibold" id="but-cancelar-pop"></button>
+        </div>
         <input class="form-control fw-semibold" type="text" aria-label="agregar-jugador"><br>
-        <button type="button" class="btn btn-success fw-semibold" id="but-agregar-pop">Agregar</button>
-        <button type="button" class="btn btn-danger fw-semibold" id="but-cancelar-pop">Cancelar</button>
+        <button type="button" class="btn btn-success fw-semibold mx-auto" id="but-agregar-pop">Agregar</button>
     </div>
 </form>
 

@@ -19,7 +19,7 @@ function fade_Out(element){
 function pop_Blur(){
     var blur_Body = document.getElementsByClassName("container")[0]
     if(blur_Body.classList.contains("blur")){
-        setTimeout(function(){blur_Body.classList.toggle("blur")}, 700)
+        setTimeout(function(){blur_Body.classList.toggle("blur")}, 1000)
     }
     else{
         blur_Body.classList.toggle("blur")
@@ -40,6 +40,7 @@ agregar_Jugador_Btn.onclick = function(){
 }
 
 agregar_Btn_Pop.onclick = function(){
+    var jugador = pop_Agregar.value
     fade_Out(pop_Agregar)
     pop_Blur()
 }

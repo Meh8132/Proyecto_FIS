@@ -11,6 +11,6 @@
     transition: 0.5s;
 }
 .popup{
-    top: 40%;
+    bottom: 50%;
     display: none;
 }
