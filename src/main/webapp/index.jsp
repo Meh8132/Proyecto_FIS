@@ -7,16 +7,14 @@
     }
     private void imprimirJugador(String jugador){
         String gridJugador="" +
-                "<div class=\"row justify-content-center d-flex\">\n" +
-                "    <div class=\"col-sm-3 mx-auto gy-3\">\n" +
-                "        <div class=\"jugador-circle shadow position-relative mx-auto my-2\">\n" +
-                "            <h2 class=\"fw-semibold position-absolute top-50 start-50 translate-middle\">Puntos</h2>\n" +
-                "        </div>\n" +
-                "        <div class=\"card but-index mx-auto shadow\" style=\"max-width: 200px;\">\n" +
-                "            <div class=\"card-body text-center\"><h5 class=\"fw-semibold\">Nombre jugador</h5></div>\n" +
-                "        </div>\n" +
-                "   </div>\n" +
-                "</div>";
+                "<div class=\"col-sm-3 mx-auto gy-3\">\n" +
+                "    <div class=\"jugador-circle shadow position-relative mx-auto my-2\">\n" +
+                "        <h2 class=\"fw-semibold position-absolute top-50 start-50 translate-middle\">Puntos</h2>\n" +
+                "    </div>\n" +
+                "    <div class=\"card but-index mx-auto shadow\" style=\"max-width: 200px;\">\n" +
+                "        <div class=\"card-body text-center\"><h5 class=\"fw-semibold\">Nombre jugador</h5></div>\n" +
+                "    </div>\n" +
+                "</div>\n" +
     }
 %>
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
