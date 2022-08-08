@@ -14,7 +14,7 @@
                 "    <div class=\"card but-index mx-auto shadow\" style=\"max-width: 200px;\">\n" +
                 "        <div class=\"card-body text-center\"><h5 class=\"fw-semibold\">Nombre jugador</h5></div>\n" +
                 "    </div>\n" +
-                "</div>\n" +
+                "</div>\n";
     }
 %>
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
