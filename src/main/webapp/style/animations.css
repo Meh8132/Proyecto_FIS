@@ -1,0 +1,16 @@
+#but-iniciar{
+    margin-top: 30vh;
+}
+#but-agregar-jugador{
+    display: none;
+}
+.blur{
+    filter: blur(20px);
+    pointer-events: none;
+    user-select: none;
+    transition: 0.5s;
+}
+.popup{
+    top: 40%;
+    display: none;
+}

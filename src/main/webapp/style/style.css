@@ -1,0 +1,12 @@
+.but_index{
+    width: 800px;
+    max-width: 90%;
+}
+.shadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#title{
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+    font-family: 'Titan One', cursive;
+}
